@@ -9,11 +9,11 @@ interface IAppContext {
 }
 
 interface IUser {
-  email: string
-    password: string
-    name: string
-    balance: number
-    id: string
+  email: string;
+  password: string;
+  name: string;
+  balance: number;
+  id: string;
 }
 
 export const AppContext = createContext({} as IAppContext)
