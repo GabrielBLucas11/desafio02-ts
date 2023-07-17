@@ -1,4 +1,4 @@
-import { ChakraProvider, Center, Input, Button, Box, Stack } from "@chakra-ui/react"
+import { ChakraProvider, Box, Stack } from "@chakra-ui/react"
 
 export const Card = ({ children }: any) => {
   return (

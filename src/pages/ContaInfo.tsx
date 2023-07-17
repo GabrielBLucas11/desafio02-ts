@@ -1,21 +1,11 @@
-import { Box, Button, Center, SimpleGrid, Text } from "@chakra-ui/react"
+import { Center, SimpleGrid } from "@chakra-ui/react"
 import { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { AppContext } from "../components/AppContext";
 import CardInfo from "../components/CardInfo";
 
-interface UserData {
-  email: string;
-  password: string;
-  name: string;
-  balance: number;
-  id: string;
-}
-
 const ContaInfo = () => {
   const { user } = useContext(AppContext)
-  const { isLoggedIn} = useContext(AppContext)
-  const navigate = useNavigate()
 
   return (
     <Center>
