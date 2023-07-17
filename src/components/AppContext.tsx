@@ -29,7 +29,7 @@ export const AppContextProvider = ({ children }: any) => {
       setIsLoggedIn(login)
       setUser(user)
     }
-  }, [])
+  }, [storage])
 
   
 
